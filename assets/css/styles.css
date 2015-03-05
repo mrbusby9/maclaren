@@ -164,15 +164,19 @@ h1, h2 {
 }
 
 
-/* full size images */
+/* large size images */
 
-.full-images {
-	width: 100%;
+.large-images {
+	width: 90%;
+	max-width: 1008px;
+	margin: 0 auto;
 	text-align: center;
 }
 
-.full-images img {
+.large-images img {
 	width: 100%;
+	margin-bottom: 80px;
+	display: block;
 }
 
 
@@ -181,7 +185,7 @@ h1, h2 {
 .fone {
   position:relative;
   width: 100%;
-  background-image: url('/assets/images/06_Automotive_Section.jpg');
+  background-image: url('/assets/images/11_F1-Section.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
@@ -211,4 +215,16 @@ h1, h2 {
   height: 20px;
   min-width: 100px;
   margin-bottom: 35px;
+}
+
+/* full size images */
+
+.full-images {
+  width: 100%;
+  text-align: center;
+}
+
+.full-images img {
+  width: 100%;
+  display: block;
 }
