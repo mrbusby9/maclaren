@@ -1,0 +1,214 @@
+
+body {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+/* HEADER */
+
+.header {
+	background-image: url('../images/01_Hero-12C.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	padding-top: 98.46%;
+
+	position: relative;
+}
+
+.header-content-wrap {
+  position: absolute;
+  top: 0;
+  padding: 55% 0% 0 0%;
+  width: 100%;
+}
+
+.header-content {
+	position: relative;
+  max-width: 1008px;
+  width: 90%;
+    margin: 0 auto;
+}
+
+.header-content h2 {
+	margin: 0 0 35px;
+}
+
+.header-content .bar {
+  background-image: url('../images/01_Bar.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  min-width: 100px;
+  margin-bottom: 35px;
+}
+.header-content .arrow {
+  background-image: url('../images/01_Arrow.png');
+  background-repeat: no-repeat;
+  height: 26px;
+  min-width: 50px;  
+}
+
+/* INTRO */
+
+.intro {
+
+}
+
+.intro-content {
+	width: 90%;%;
+	max-width: 592px;
+	margin: 160px auto;
+}
+
+.intro-content .bar {
+  background-image: url('../images/01_Bar.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  min-width: 100px;
+  margin-bottom: 35px;
+}
+
+.intro-image {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto 80px auto;	
+  text-align: center;
+}
+
+.intro-image img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* OLD */
+
+.old {
+	padding-top: 30%;
+	padding-bottom: 30%;
+	background-color: #e8eae9;
+}
+
+.old-content {
+	width: 90%;
+	max-width: 416px;
+	margin: 0 auto;
+}
+
+.old img {
+	width: 100%;
+}
+
+/* NEW */ 
+
+.new {
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.new-content {
+	
+}
+
+.new-logo {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.new-logo img {
+	width: 100%;
+}
+
+
+/* MAW */
+
+.maw {
+	position:relative;
+	width: 100%;
+	background-image: url('/assets/images/06_Automotive_Section.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+	padding-top: 70.72%;
+}
+
+.maw-content-wrap {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.maw-content {
+  position: relative;
+	width: 90%;
+	max-width: 590px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.maw-content .bar {
+  background-image: url('../images/06_Bar.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  min-width: 100px;
+  margin-bottom: 35px;
+}
+
+
+/* full size images */
+
+.full-images {
+	width: 100%;
+	text-align: center;
+}
+
+.full-images img {
+	width: 100%;
+}
+
+
+/* F1 */
+
+.fone {
+  position:relative;
+  width: 100%;
+  background-image: url('/assets/images/06_Automotive_Section.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  padding-top: 70.72%;
+}
+
+.fone-content-wrap {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fone-content {
+  position: relative;
+  width: 90%;
+  max-width: 590px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.fone-content .bar {
+  background-image: url('../images/06_Bar.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  min-width: 100px;
+  margin-bottom: 35px;
+}
