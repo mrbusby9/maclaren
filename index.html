@@ -11,7 +11,6 @@
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="assets/js/lazy.min.js"></script>
-  <script src="assets/js/scripts.js"></script>
   
 </head>
 <body>
@@ -21,7 +20,7 @@
       <div class="header-content">
         <h1>McLaren Group</h1>
         <h2>Visual Exploration</h2>
-        <div class="bar-bar"></div>
+        <div class="bar"></div>
         <div class="arrow"></div>
       </div>
     </div>
@@ -35,20 +34,30 @@
       <p>My proposal is very much an evolution of the existing brand, pushing its best qualities forward, but injecting the heritage from when Bruce McLaren first joined the Formula 1 community in 1958.</p>
       <p>The examples in this brand specimen are a cross section of areas the visual language can expand into. I see this as an ongoing project that will continue to develop as McLaren continues to innovate and move into new markets.</p>
     </div>
-    <div class="intro-image"><img class="lazy" data-original="/assets/images/02_LeMans-F1.jpg" /></div>
-    <div class="intro-image"><img class="lazy" data-original="/assets/images/03_Senna-MP4-4.jpg" /></div>
+    <div class="intro-image"><img class="lazy" data-original="assets/images/2x/02_LeMans-F1@2x.jpg" /></div>
+    <div class="intro-image"><img class="lazy" data-original="assets/images/2x/03_Senna-MP4-4@2x.jpg" /></div>
   </div>
   
   <div class="old">
     <div class="old-content">
-      <img class="lazy" data-original="/assets/images/04_1_McLaren-Old.svg" />
-      <img class="lazy" data-original="/assets/images/04_2_McLaren-New.svg" />
+      <div id="old-fade-in"></div>
+      <div id="old-fade-middle"></div>
+      <div id="old-fade-out"></div>
+      <div id="new-fade-in"></div>
+      <div id="new-fade-middle"></div>
+      <div id="new-fade-out"></div>
+      <div id="old-design">     
+        <img src="assets/images/04_1_McLaren-Old.png" />
+      </div>
+      <div id="new-design">
+        <img src="assets/images/04_2_McLaren-New.png" />
+      </div>
     </div>
   </div>
  
   <div class="new">
     <div class="new-content">
-      <div class="new-logo"><img class="lazy" data-original="/assets/images/05_Logo-Guidelines.svg" /></div>
+      <div class="new-logo"><img class="lazy" data-original="assets/images/05_Logo-Guidelines.svg" /></div>
     </div>
   </div> 
   
@@ -65,10 +74,10 @@
   </div>
   
   <div class="large-images">
-    <img class="lazy" data-original="/assets/images/07_M-Badge.jpg" />
-    <img class="lazy" data-original="/assets/images/08_Logo-Engine.jpg" />
-    <img class="lazy" data-original="/assets/images/09_Livery-Detail.jpg" />
-    <img class="lazy" data-original="/assets/images/10_GT3-Livery.jpg" />
+    <img class="lazy" data-original="assets/images/2x/07_M-Badge@2x.jpg" />
+    <img class="lazy" data-original="assets/images/2x/08_Logo-Engine@2x.jpg" />
+    <img class="lazy" data-original="assets/images/2x/09_Livery-Detail@2x.jpg" />
+    <img class="lazy" data-original="assets/images/2x/10_GT3-Livery@2x.jpg" />
   </div>
   
   <div class="fone">
@@ -84,10 +93,12 @@
   </div>
   
   <div class="full-images">
-    <img class="lazy" data-original="/assets/images/12_F1Livery-Detail.jpg" />
-    <img class="lazy" data-original="/assets/images/13_MP430-Logo.jpg" />
-    <img class="lazy" data-original="/assets/images/14_F1Livery-Full.jpg" />
-    <img class="lazy" data-original="/assets/images/15_Overalls-Full.jpg" />
+    <img class="lazy" data-original="assets/images/2x/12_F1Livery-Detail@2x.jpg" />
+    <div class="mp430">
+      <img src="assets/images/2x/13_MP430-Logo@2x.png" />
+    </div>
+    <img class="lazy" data-original="assets/images/2x/14_F1Livery-Full@2x.jpg" />
+    <img class="lazy" data-original="assets/images/2x/15_Overalls-Full@2x.jpg" />
   </div>  
 
   <div class="footer">
@@ -109,6 +120,14 @@
       
     <div class="clear"></div>
   </div>
+  <div class="up"><span class="scrollToTop">
+    <img src="assets/images/Top_Arrow.png"/>
+  </a></div>
  </div>
 </body>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/plugins/debug.addIndicators.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.0/plugins/animation.gsap.js"></script>
+  <script src="assets/js/scripts.js"></script>
 </html>
