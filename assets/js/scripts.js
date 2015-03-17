@@ -73,7 +73,6 @@ duration: "100%"
 
 $(window).scroll(function(){    
   var bottom = $('.header').offset().top;
-  console.log(bottom + " " + $('.header').height());
   if ($(this).scrollTop() > bottom){ 
       $('.header-content').addClass('fixed'); 
   }

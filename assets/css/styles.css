@@ -22,7 +22,7 @@ body {
 h1, h2 {
 	font-family: 'Calibre-Medium', Helvetica, Arial, sans-serif;
 	margin: 0;
-	letter-spacing: -1px;
+	letter-spacing: -.5px;
 }
 
 p {
@@ -38,7 +38,7 @@ p {
 /* HEADER */
 
 .header {
-	background-image: url('../images/01_Hero-12C.jpg');
+	background-image: url('../images/2x/01_Hero-12C@2x.jpg');
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: 100%;
@@ -50,7 +50,7 @@ p {
 .header-content-wrap {
   position: absolute;
   width: 100%;
-  bottom: 60px;
+  top: 60px;
 }
 
 .header-content {
@@ -68,21 +68,22 @@ p {
 
 .header-content h2 {
 	font-size: 18pt;
-	margin: 0 0 40px;
+	margin: 0 0 20px;
 	font-family: 'Calibre-Light', Helvetica, Arial, sans-serif;
 }
 
 .header-content .bar {
   background-image: url('../images/01_Bar.png');
   background-repeat: no-repeat;
-  height: 20px;
+  height: 4px;
   min-width: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 .header-content .arrow {
-  background-image: url('../images/01_Arrow.png');
+  background-image: url('../images/2x/01_Arrow-2.png');
   background-repeat: no-repeat;
-  height: 26px;
+  background-size: 18px 25px;
+  height: 50px;
   min-width: 50px;  
 }
 
@@ -134,7 +135,7 @@ p {
 	width: 90%;
 	max-width: 416px;
 	margin: 0 auto;
-	padding: 100px 0 0 0;
+	padding: 100px 0;
 }
 
 .old img {
@@ -154,7 +155,7 @@ p {
   color: #ccc;
   text-align: center;
   position:fixed;
-  z-index: 100000;
+  z-index: 10;
   opacity: 0;
   margin: 0 auto;
   width: 90%;
@@ -171,7 +172,7 @@ p {
   color: #ccc;
   text-align: center;
   position:fixed;
-  z-index: 1000;
+  z-index: 10;
   opacity: 0;
   margin: 0 auto;
   width: 90%;
@@ -195,7 +196,7 @@ p {
 }
 
 #new-fade-middle, #old-fade-middle {
-	height: 300px;
+	height: 400px;
 }
 
 
@@ -205,6 +206,8 @@ p {
 	z-index: 2000;
   padding-top: 20%;
   padding-bottom: 20%;
+  position: relative;
+  background-color: #fff;
 }
 
 .new-content {
@@ -215,9 +218,16 @@ p {
 	width: 90%;
 	max-width: 800px;
 	margin: 0 auto;
+	display: none;
 }
 
-.new-logo img {
+.new-logo-mobile {
+  width: 90%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.new-logo img, .new-logo-mobile img {
 	width: 100%;
 }
 
